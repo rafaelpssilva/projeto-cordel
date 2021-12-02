@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+/* GLOBAIS */
+
+:root {
+    --font-corpo: 'Sriracha',cursive;
+    --font-header: 'Passion One', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #000000;
+    color: #fff;
+
+    text-align: center;
+
+    width: 100%;
+    height: minmax(30vh 40vh);
+
+}
+
+header h1 {
+    font-family: var(--font-header);
+    font-variant: small-caps;
+    font-size: 10vw;
+
+    padding-top: 50px;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+   
+}
+
+header a {
+    color: #fff;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* MAIN */
+
+main {
+    font-family: var(--font-corpo);
+    
+    margin-bottom: 65px;
+}
+
+
+
+/* CORDEL */
+
+.cordel {
+    padding: 35px 0px;
+}
+
+.cordel p {
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+.estrofe {
+    padding: 30px 0px 30px 0px;
+}
+
+
+
+/* PARALAX-1 */
+
+.paralax-1 {
+    background: url(../imagens/background001.jpg) center right no-repeat fixed;
+    background-size: cover;
+
+    margin: 0;
+    padding-left: 3px;
+
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+
+.estrofe > p {
+    padding-left: 30px;
+}
+
+.paralax-1  p {
+    background-color: rgba(0, 0, 0, 0.527);
+    
+    color: #fff;
+
+    width: 41vw;
+}
+
+
+
+/* PARALAX-2 */
+
+.paralax-2 {
+    background: url(../imagens/background002.jpg) center no-repeat fixed;
+    background-size: cover;
+
+    margin: 0;
+    padding-left: 3px;
+
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+
+.paralax-2  p {
+    background-color: rgba(0, 0, 0, 0.527);
+    
+    color: #fff;
+
+    width: 42vw;
+}
+
+
+
+/* PARALAX 1 e 2 */
+
+.efeito {
+    padding: 65px 29px;
+}
+
+.efeito p {
+    padding: 5px 3px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+
+    padding: 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
